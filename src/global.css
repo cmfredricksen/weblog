@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Montserrat&display=swap');
+
+:root {
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-accent: "Inconsolata", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: var(--font-montserrat);
+    font-size: 1.25rem;
+}
+
+h1.title {
+    text-align: center;
+    border-top: 1px dashed red;
+    padding: 1rem 1rem 2rem;
+}
+
+h2, h3 {
+    padding: 1rem 0;
+}
+
+    
+li {
+    list-style: none;
+    font-family: var(--font-accent);
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #777;
+}
