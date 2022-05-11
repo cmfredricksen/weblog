@@ -50,8 +50,9 @@
     }
     .card {
         padding: 1rem 0;
-        background-color: azure;
-        border: 1px dashed red;
+        background-color: var(--color-dark);
+        box-shadow: 3px 4px 5px black;
+        outline: 2px solid var(--color-lt);
         border-radius: 1rem;
         margin: 2rem 1rem;
         width: 30%;

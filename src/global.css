@@ -3,6 +3,10 @@
 :root {
     --font-montserrat: "Montserrat", sans-serif;
     --font-accent: "Inconsolata", monospace;
+    
+    --color-dk: #2a2929;
+    --color-lt: #e3dfdf;
+    --color-accent: magenta;
 }
 
 * {
@@ -14,12 +18,15 @@
 body {
     font-family: var(--font-montserrat);
     font-size: 1.25rem;
+    background-color: var(--color-dk);
+    color: var(--color-lt)
 }
 
 h1.title {
     text-align: center;
-    border-top: 1px dashed red;
+    border-top: 1px dashed var(--color-lt);
     padding: 1rem 1rem 2rem;
+    color: var(--color-lt)
 }
 
 h2, h3 {
@@ -30,11 +37,13 @@ h2, h3 {
 li {
     list-style: none;
     font-family: var(--font-accent);
+    color: var(--color-accent)
 }
 a {
     font-weight: bold;
     text-decoration: none;
+    color: var(--color-accent)
 }
 a:hover {
-    color: #777;
+    color: var(--color-lt);
 }

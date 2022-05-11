@@ -1,5 +1,5 @@
 <footer>
-    <h5>&copy; cm fred &middot; All Rights Reserved &hearts;</h5>
+    <h5>&copy; 2022 cm fred &middot; All Rights Reserved &hearts;</h5>
 </footer>
 
 <style>
